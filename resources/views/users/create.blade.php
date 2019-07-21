@@ -57,6 +57,13 @@
                                     <label class="form-control-label" for="input-password-confirmation">{{ __('Confirm Password') }}</label>
                                     <input type="password" name="password_confirmation" id="input-password-confirmation" class="form-control form-control-alternative" placeholder="{{ __('Confirm Password') }}" value="" required>
                                 </div>
+                                <div class="form-group">
+                                    <label class="form-control-label" for="select-user-type">{{ __('User Type') }}</label>
+                                    <select type="password" name="password_confirmation" id="select-user-type" class="form-control form-control-alternative" placeholder="{{ __('Select User Type') }}" value="" required>
+                                        <option value='u'>User</option>
+                                        <option value='a'>Admin</option>
+                                    </select>
+                                </div>
 
                                 <div class="text-center">
                                     <button type="submit" class="btn btn-success mt-4">{{ __('Save') }}</button>
